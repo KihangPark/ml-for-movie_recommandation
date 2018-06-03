@@ -79,7 +79,7 @@ Actual execution result can be checked in below jupyter file..
 
 [notebok sample](/recommandation.ipynb)
 
-## Data preparation
+# Data preparation
 
 This package is using actual data from kaggle.com.
 For actual execution of this tool, below data must be prepared.
