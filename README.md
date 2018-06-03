@@ -30,6 +30,8 @@ In this process, below processes are being done.
 6. Convert #5 data to panda dataframe.
 7. Merge #4, #6 and generate merged dataframe.
 
+Actual code :
+
     filter = {
         'anti_genres': ['Romance', 'History'],
         'vote_average': 6,
@@ -41,17 +43,23 @@ In this process, below processes are being done.
 
 In this process, generate pivot table which contains all movie title columns for all user ids.
  
+Actual code :
+
     pivot_table = get_pivot_table(df_movie)
 
 ## Generate correlation matrix based on dataframe.
 
 In this process, generate correlation matrix which is containing actual number what tells 'this movie rating and this movie rating have some relationship or not'.
 
+Actual code :
+
     corr_table = get_corr_table(pivot_table)
 
 ## Generate recommandation
 
 In this process, generate actual recommendation based on input user ratings.
+
+Actual code :
 
     my_ratings = pd.Series(
         {
